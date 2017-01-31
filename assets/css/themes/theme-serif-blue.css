@@ -1222,8 +1222,8 @@ html[dir="rtl"] .comments > li ul { padding-left: 0; padding-right: 58px; }
 /* 4.4 Other
 ----------------------------------------------------------*/
 /* Resume */
-.resume-card { margin-bottom: 60px; }
-.resume-card .title { margin-bottom: 45px; }
+.resume-card { margin-bottom: 50px; }
+.resume-card .title { margin-bottom: 25px; }
 .resume-card.boxed { background-color: #f5f5f5; padding: 50px 30px 30px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; }
 .resume-card.boxed .progress { background-color: #fff; }
 .resume-card.boxed .timeline:after { background-color: #fff; }
@@ -1272,7 +1272,7 @@ pre { tab-size: 4; }
 
 /* 4.5 Sections
 ----------------------------------------------------------*/
-section, .section { position: relative; padding-top: 90px; padding-bottom: 90px; overflow: hidden; }
+section, .section { position: relative; padding-top: 50px; padding-bottom: 50px; overflow: hidden; }
 section.section-sm, .section.section-sm { padding-top: 65px; padding-bottom: 65px; }
 section.section-xs, .section.section-xs { padding-top: 40px; padding-bottom: 40px; }
 section.section-lg, .section.section-lg { padding-top: 120px; padding-bottom: 120px; }
@@ -1820,7 +1820,7 @@ textarea.form-control:focus, textarea.form-control:active { border: none; }
 .nav-pills > li + li { margin-left: 0; }
 
 /* Tabs */
-.tabs-wrapper { position: relative; overflow: auto; padding-left: 20px; padding-right: 20px; }
+.tabs-wrapper { position: relative; /*overflow: auto;*/ padding-left: 20px; padding-right: 20px; }
 .tabs-wrapper .selector { position: absolute; bottom: 0; height: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; background: #3a6bc4; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; -webkit-transition: all 0.3s ease-out; transition: all 0.3s ease-out; }
 @media only screen and (max-width: 360px) { .tabs-wrapper .selector { display: none; } }
 
@@ -1894,8 +1894,8 @@ html[dir="rtl"] .pagination > li:first-child, html[dir="rtl"] .pagination > li:l
 
 /* 5.18 Progress Bars
 ----------------------------------------------------------*/
-.progress { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; height: 40px; background-color: #ededed; margin-bottom: 14px; }
-.progress .progress-bar { line-height: 40px; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; text-align: right; font-size: 12px; font-weight: 600; padding-right: 15px; background-color: #3a6bc4; font-family: "Poppins", Helvetica, Arial, sans-serif; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+.progress { -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; height: 25px; background-color: #ededed; margin-bottom: 14px; }
+.progress .progress-bar { line-height: 28px; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; text-align: right; font-size: 12px; font-weight: 600; padding-right: 15px; background-color: #3a6bc4; font-family: "Poppins", Helvetica, Arial, sans-serif; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
 .progress .progress-bar.progress-bar-primary { background-color: #3a6bc4; }
 .progress .progress-bar.progress-bar-info { background-color: #56aee5; }
 .progress .progress-bar.progress-bar-warning { background-color: #f06a28; }
@@ -1941,7 +1941,7 @@ h6, .h6 { text-transform: uppercase; font-size: 11px; margin-bottom: 10px; }
 /* Paragraph */
 p { font-size: 15px; font-weight: 400; margin-bottom: 25px; }
 
-p.lead { font-size: 22px; margin-bottom: 25px; line-height: 1.6; }
+p.lead { font-size: 18px; margin-bottom: 25px; /*line-height: 1.6;*/ }
 @media only screen and (max-width: 767px) { p.lead { font-size: 17px; } }
 p.lead.text-lg { font-size: 24px; }
 @media only screen and (max-width: 767px) { p.lead.text-lg { font-size: 19px; } }
@@ -1987,7 +1987,7 @@ blockquote footer .content .caption { filter: progid:DXImageTransform.Microsoft.
 /* Colors */
 .text-primary { color: #3a6bc4; }
 
-.text-muted { color: rgba(0, 0, 0, 0.4); }
+/*.text-muted { color: rgba(0, 0, 0, 0.4); }*/
 
 .text-muted-2x { color: rgba(0, 0, 0, 0.2); }
 
