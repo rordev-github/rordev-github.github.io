@@ -959,7 +959,7 @@ img { max-width: 100%; height: auto; -webkit-backface-visibility: hidden; }
 @media only screen and (max-width: 1199px) { .container-custom { width: auto; margin-left: 30px; margin-right: 30px; } }
 @media only screen and (max-width: 767px) { .container-custom { margin-left: 0px; margin-right: 0px; } }
 
-.row.no-spaces { margin-left: 0; margin-right: 0; }
+.row.no-spaces { margin-left: 0; margin-right: 0; background-color: #f5f5f5; }
 
 .row.no-spaces > *[class^='col'], .row.no-spaces > *[class*=' col'] { padding-left: 0; padding-right: 0; }
 
